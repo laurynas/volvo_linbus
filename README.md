@@ -6,6 +6,8 @@ Tested with **Volvo V50 2006**.
 
 ## Scheme
 
+Arduino UNO + MCP2004 LIN transceiver.
+
 ![](doc/scheme_bb.png)
 
 ## Connector
@@ -28,6 +30,10 @@ Synchronisation field. The synchronisation field helps slave nodes to synchronis
 2. **Identification field.** Contains information about the contents of the message. All nodes can read and respond to a message, yet only one node has the right to send a response to the message. Which node has the right to answer the message (send response data) is evident from the identifier. 
 3. **Data information.** The data sent can be two to eight bytes long. The data information is sent with the least significant bit first. 
 4. **Checksum.** The checksum is a way for slave notes to check whether the received message has been transferred correctly, or if any disturbance can have occurred during the transmission which has corrupted the data. If an error has occurred in a message during transmission from the master node to the slave node, i.e. the checksum calculated by the slave node does not correspond, the slave node will erase the message and await the next message sent from the master node. 
+
+## References
+
+* [MCP2004 documentation](http://www.microchip.com/wwwproducts/en/MCP2004)
 
 ## Credits
 
