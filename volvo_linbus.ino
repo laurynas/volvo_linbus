@@ -27,8 +27,8 @@ SoftwareSerial LINBusSerial(RX_PIN, TX_PIN);
 // BTN_PREV       20 0 2 0 0 FD
 // BTN_VOL_UP     20 0 0 1 0 FE
 // BTN_VOL_DOWN   20 0 80 0 0 7F
-// BTN_ENTER      20 0 1 0 0 FE
-// BTN_BACK       20 0 8 0 0 F7
+// BTN_BACK       20 0 1 0 0 F7
+// BTN_ENTER      20 0 8 0 0 FE
 // BTN_UP         20 1 0 0 0 FE
 // BTN_DOWN       20 2 0 0 0 FD
 // BTN_LEFT       20 4 0 0 0 FB
