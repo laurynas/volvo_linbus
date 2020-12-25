@@ -2,6 +2,8 @@
 
 Simple Arduino + MCP2004 based reader. Reads steering wheel keys via LIN bus.
 
+Part of [retrofitting of Android Auto to Volvo RTI project](https://github.com/laurynas/volvo_crankshaft).
+
 Tested with **Volvo V50 2006**.
 
 ## Scheme
